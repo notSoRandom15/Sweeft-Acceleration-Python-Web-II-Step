@@ -1,0 +1,55 @@
+/* create.css */
+
+/* Style the h1 heading */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Style the form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+  
+  /* Style the labels */
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style the input fields */
+  input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 30%;
+    box-sizing: border-box;
+  }
+  
+  /* Style the button */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for button */
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    margin-top: 1rem;
+  }
+  

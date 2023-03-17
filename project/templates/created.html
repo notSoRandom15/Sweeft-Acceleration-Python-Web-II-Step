@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}URL Created{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/created.css' %}">
+  <div class="container">
+    <h1>URL Created Successfully!</h1>
+    <p>The new URL has been created and is ready to use:</p>
+    <p><a href="{{ url.long_url }}" target="_blank">{{ url.short_name }}</a></p>
+    <a href="{% url 'home' %}" class="button">Back to Home</a>
+  </div>
+{% endblock %}
